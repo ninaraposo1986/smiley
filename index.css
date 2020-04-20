@@ -1,0 +1,56 @@
+body {
+    background-image: ;
+}
+
+.bigYellowCircle {
+    margin: 0 auto;
+    background-color: yellow;
+    width: 600px;
+    height: 600px;
+    border: 20px solid black;
+    border-radius: 50%;
+}
+
+.leftEye {
+    position: absolute;
+    top: 100px;
+    left: 620px;
+    background-color: black;
+    border-radius: 50%;
+    width: 75px;
+    height: 285px;
+    z-index: 3;
+}
+
+.rightEye {
+    position: absolute;
+    top: 100px;
+    right: 620px;
+    background-color: black;
+    border-radius: 50%;
+    width: 75px;
+    height: 285px;
+    z-index: 3;
+}
+
+.mouth {
+    position: absolute;
+    top: 280px;
+    right: 560px;
+    background-color: black;
+    border-radius: 80%;
+    width: 420px;
+    height: 265px;
+    z-index: 2;
+}
+
+.smile {
+    position: absolute;
+    top: 250px;
+    right: 560px;
+    background-color: yellow;
+    border-radius: 80%;
+    width: 420px;
+    height: 260px;
+    z-index: 2;
+}
